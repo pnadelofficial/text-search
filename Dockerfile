@@ -3,7 +3,7 @@ FROM nvidia/cuda:${CUDA_IMAGE}
 
 LABEL maintainer="Peter Nadel <peter.nadel@tufts.edu>"
 
-LABEL description="This container contains miniforge with a stack of ASR dependencies installed on ubuntu:24.04."
+LABEL description="This container contains miniforge with a stack of text-search dependencies installed on ubuntu:24.04."
 
 ENV PATH=/opt/miniforge/bin:$PATH \
     LANG=en_US.UTF-8 \
